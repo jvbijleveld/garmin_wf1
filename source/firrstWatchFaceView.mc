@@ -83,9 +83,9 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     }
     
     function getStepCountText(){
-    	var stepcountString = "0";
+    	var stepcountString = "10";
     	
-    	var stepCount = null;//Activity.getActivityInfo().stepCount;
+    	var stepCount = ActivityMonitor.History.steps;
     	if(stepCount){
     		stepcountString = stepCount;
     	} 
