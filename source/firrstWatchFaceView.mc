@@ -3,6 +3,8 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
 using Toybox.Application;
+using Toybox.Activity as ac;
+using Toybox.ActivityMonitor as am;
 
 class firrstWatchFaceView extends WatchUi.WatchFace {
 
@@ -39,11 +41,15 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
+
         // Update the view
         var view = View.findDrawableById("TimeLabel");
         view.setColor(Application.getApp().getProperty("ForegroundColor"));
         view.setText(timeString);
 
+		View.findDrawableById("hrLabel").setText(getHeartrateText());
+        View.findDrawableById("stepcountLabel").setText(getStepCountText());
+        
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -61,5 +67,30 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
     }
+    
+    function getHeartrateText(){
+   	
+		var currentHeartrate= Activity.getActivityInfo().currentHeartRate;
+		if(currentHeartrate){
+			return currentHeartrate;
+		}
+		
+		currentHeartrate = ActivityMonitor.getHeartRateHistory(1, true).next();
+		if(currentHeartrate){
+			return currentHeartrate.heartRate.toString();
+		}
+		return "--";
+    }
+    
+    function getStepCountText(){
+    	var stepcountString = "0";
+    	
+    	var stepCount = null;//Activity.getActivityInfo().stepCount;
+    	if(stepCount){
+    		stepcountString = stepCount;
+    	} 
+    	return stepcountString;
+    }
+       
 
 }

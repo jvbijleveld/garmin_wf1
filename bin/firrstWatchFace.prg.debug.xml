@@ -15,33 +15,51 @@
         <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceApp.mc" id="9" lineNum="20" pc="268435609" symbol="getInitialView"/>
         <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceApp.mc" id="10" lineNum="24" pc="268435647" symbol="onSettingsChanged"/>
         <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceApp.mc" id="10" lineNum="25" pc="268435651" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="12" lineNum="9" pc="268435668" symbol="initialize"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="12" lineNum="10" pc="268435672" symbol="initialize"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="13" lineNum="14" pc="268435691" symbol="onLayout"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="13" lineNum="15" pc="268435695" symbol="onLayout"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="14" lineNum="21" pc="268435733" symbol="onShow"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="25" pc="268435738" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="27" pc="268435742" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="28" pc="268435749" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="29" pc="268435766" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="30" pc="268435776" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="31" pc="268435801" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="32" pc="268435812" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="35" pc="268435828" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="36" pc="268435860" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="37" pc="268435867" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="40" pc="268435888" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="43" pc="268435953" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="44" pc="268435977" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="45" pc="268436018" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="48" pc="268436032" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="16" lineNum="54" pc="268436053" symbol="onHide"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="17" lineNum="58" pc="268436058" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="18" lineNum="62" pc="268436063" symbol="onEnterSleep"/>
-        <entry filename="Rez" id="24" lineNum="15" pc="268436068" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="18" pc="268436080" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="19" pc="268436104" symbol="WatchFace"/>
-        <entry filename="Rez" id="24" lineNum="21" pc="268436285" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="12" lineNum="11" pc="268435668" symbol="initialize"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="12" lineNum="12" pc="268435672" symbol="initialize"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="13" lineNum="16" pc="268435691" symbol="onLayout"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="13" lineNum="17" pc="268435695" symbol="onLayout"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="14" lineNum="23" pc="268435733" symbol="onShow"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="27" pc="268435738" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="29" pc="268435742" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="30" pc="268435749" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="31" pc="268435766" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="32" pc="268435776" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="33" pc="268435801" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="34" pc="268435812" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="37" pc="268435828" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="38" pc="268435860" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="39" pc="268435867" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="42" pc="268435888" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="46" pc="268435953" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="47" pc="268435977" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="48" pc="268436018" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="50" pc="268436032" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="51" pc="268436075" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="15" lineNum="54" pc="268436118" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="16" lineNum="60" pc="268436139" symbol="onHide"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="17" lineNum="64" pc="268436144" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="18" lineNum="68" pc="268436149" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="71" pc="268436154" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="73" pc="268436158" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="74" pc="268436183" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="75" pc="268436188" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="78" pc="268436194" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="79" pc="268436229" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="80" pc="268436234" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="19" lineNum="82" pc="268436255" symbol="getHeartrateText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="20" lineNum="85" pc="268436262" symbol="getStepCountText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="20" lineNum="86" pc="268436266" symbol="getStepCountText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="20" lineNum="88" pc="268436273" symbol="getStepCountText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="20" lineNum="89" pc="268436276" symbol="getStepCountText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="20" lineNum="90" pc="268436281" symbol="getStepCountText"/>
+        <entry filename="C:\\Users\\jeffr\\eclipse-workspace\\Garmin\\firstWatchFace\\source\\firrstWatchFaceView.mc" id="20" lineNum="92" pc="268436288" symbol="getStepCountText"/>
+        <entry filename="Rez" id="26" lineNum="15" pc="268436292" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="17" pc="268436304" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="18" pc="268436328" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="19" pc="268436491" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="20" pc="268436624" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="22" pc="268436757" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388644" module="true" symbol="System"/>
@@ -76,6 +94,7 @@
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="19" symbol="ColorDarkGray"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="25" method="true" symbol="getStepCountText"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry id="8389348" symbol="font"/>
         <entry field="true" id="14" symbol="ColorLightGray"/>
@@ -85,6 +104,7 @@
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry field="true" id="20" symbol="MilitaryFormatTitle"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="24" method="true" symbol="getHeartrateText"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="9" object="true" symbol="firrstWatchFaceApp"/>
         <entry id="12" module="true" symbol="Menus"/>
@@ -97,15 +117,20 @@
         <entry endPc="268435600" name="state" stackId="1" startPc="268435595"/>
         <entry endPc="268435605" name="state" stackId="1" startPc="268435600"/>
         <entry endPc="268435733" name="dc" stackId="1" startPc="268435691"/>
-        <entry endPc="268436052" name="view" stackId="6" startPc="268435742"/>
-        <entry endPc="268436052" name="hours" stackId="4" startPc="268435742"/>
-        <entry endPc="268436052" name="timeString" stackId="5" startPc="268435742"/>
-        <entry endPc="268436052" name="clockTime" stackId="3" startPc="268435742"/>
-        <entry endPc="268436052" name="timeFormat" stackId="2" startPc="268435742"/>
-        <entry endPc="268436053" name="dc" stackId="1" startPc="268435738"/>
-        <entry endPc="268436312" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436080"/>
-        <entry endPc="268436312" name="rez_cmp_local_custom_drawable_17400183631762406778" stackId="2" startPc="268436080"/>
-        <entry endPc="268436313" name="dc" stackId="1" startPc="268436068"/>
+        <entry endPc="268436138" name="view" stackId="6" startPc="268435742"/>
+        <entry endPc="268436138" name="hours" stackId="4" startPc="268435742"/>
+        <entry endPc="268436138" name="timeString" stackId="5" startPc="268435742"/>
+        <entry endPc="268436138" name="clockTime" stackId="3" startPc="268435742"/>
+        <entry endPc="268436138" name="timeFormat" stackId="2" startPc="268435742"/>
+        <entry endPc="268436139" name="dc" stackId="1" startPc="268435738"/>
+        <entry endPc="268436261" name="currentHeartrate" stackId="1" startPc="268436158"/>
+        <entry endPc="268436291" name="stepcountString" stackId="1" startPc="268436266"/>
+        <entry endPc="268436291" name="stepCount" stackId="2" startPc="268436266"/>
+        <entry endPc="268436804" name="rez_cmp_local_text_stepcountLabel" stackId="5" startPc="268436304"/>
+        <entry endPc="268436804" name="rez_cmp_local_text_hrLabel" stackId="4" startPc="268436304"/>
+        <entry endPc="268436804" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436304"/>
+        <entry endPc="268436804" name="rez_cmp_local_custom_drawable_18548329772305646010" stackId="2" startPc="268436304"/>
+        <entry endPc="268436805" name="dc" stackId="1" startPc="268436292"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
@@ -119,7 +144,7 @@
         <dataEntry offset="456" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry offset="487" parentId="Rez" symbolId="Strings" type="module"/>
         <dataEntry offset="598" parentId="globals" symbolId="firrstWatchFaceView" type="class"/>
-        <dataEntry offset="693" parentId="globals" symbolId="firrstWatchFaceApp" type="class"/>
+        <dataEntry offset="709" parentId="globals" symbolId="firrstWatchFaceApp" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="Background">
@@ -167,6 +192,12 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="firrstWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getHeartrateText" parent="firrstWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getStepCountText" parent="firrstWatchFaceView">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
