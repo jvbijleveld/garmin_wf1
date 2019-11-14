@@ -2,6 +2,8 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 using Toybox.Application;
 using Toybox.Activity as ac;
 using Toybox.ActivityMonitor as am;
@@ -25,30 +27,21 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (Application.getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var dateString = Lang.format("$1$  $2$ $3$",[ today.day_of_week.substring(0,2), today.day, today.month]);
 
-
-        // Update the view
-        var view = View.findDrawableById("TimeLabel");
+        // Update the view     
+        var view = View.findDrawableById("minuteLabel");
         view.setColor(Application.getApp().getProperty("ForegroundColor"));
-        view.setText(timeString);
-
+        view.setText(clockTime.min.format("%02d"));
+		
+		View.findDrawableById("hourLabel").setText(clockTime.hour.format("%02d"));
+		
 		View.findDrawableById("hrLabel").setText(getHeartrateText());
         View.findDrawableById("stepcountLabel").setText(getStepCountText());
+        View.findDrawableById("dateLabel").setText(dateString);
+        View.findDrawableById("notificationLabel").setText("2");
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -83,7 +76,7 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     }
     
     function getStepCountText(){
-    	var stepcountString = "10";
+    	var stepcountString = "4350";
     	
     	var stepCount = ActivityMonitor.History.steps;
     	if(stepCount){
