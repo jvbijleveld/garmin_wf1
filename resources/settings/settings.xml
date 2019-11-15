@@ -8,5 +8,14 @@
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
         </settingConfig>
     </setting>
+    
+     <setting propertyKey="@Properties.CountersColor" title="@Strings.CountersColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x444444">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xBBBBBB">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+	</setting>
 
 </settings>
