@@ -29,7 +29,7 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     function onUpdate(dc) {
         var clockTime = System.getClockTime();
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var dateString = Lang.format("$1$  $2$ $3$",[ today.day_of_week.substring(0,2), today.day, today.month]);
+		var dateString = Lang.format("$1$ $2$ $3$",[ today.day_of_week.substring(0,2), today.day, today.month]);
 		
 		var countersColor = Application.getApp().getProperty("CountersColor");
 		var foreGroundColor = Application.getApp().getProperty("ForegroundColor");
@@ -91,7 +91,7 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     function getStepCountText(){
     	var stepcountString = "0";
     	
-    	var stepCount = ActivityMonitor.History.steps;
+    	var stepCount = ActivityMonitor.getInfo().steps;
     	if(stepCount){
     		stepcountString = stepCount.toString();
     	} 
