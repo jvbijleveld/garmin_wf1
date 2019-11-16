@@ -33,14 +33,17 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 		
 		var countersColor = Application.getApp().getProperty("CountersColor");
 		var foreGroundColor = Application.getApp().getProperty("ForegroundColor");
+		var accentColor = Application.getApp().getProperty("AccentColor");
 
         // Update the view     
+        View.findDrawableById("minuteLabel").setColor(accentColor);
         View.findDrawableById("minuteLabel").setText(clockTime.min.format("%02d"));
-        View.findDrawableById("minuteLabel").setColor(foreGroundColor);
         
+        
+		View.findDrawableById("hourLabel").setColor(foreGroundColor);
 		View.findDrawableById("hourLabel").setText(clockTime.hour.format("%02d"));
 		
-		View.findDrawableById("dateLabel").setColor(0xFFFFFF);
+		View.findDrawableById("dateLabel").setColor(foreGroundColor);
         View.findDrawableById("dateLabel").setText(dateString);
         
 		
