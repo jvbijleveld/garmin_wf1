@@ -7,7 +7,7 @@
     <label id="hrLabel" x="182" y ="126" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
     <label id="notificationLabel" x="186" y ="109" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
 
-    <label id="hourLabel" x="90" y="30" font="Graphics.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
+    <label id="hourLabel" x="90" y="20" font="Graphics.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
 	<label id="minuteLabel" x="95" y="20" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
 	
 	<bitmap id="stepsIcon" x="160" y="163" filename="images/steps.png"/>

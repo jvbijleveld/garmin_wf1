@@ -34,13 +34,19 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 		var countersColor = Application.getApp().getProperty("CountersColor");
 		var foreGroundColor = Application.getApp().getProperty("ForegroundColor");
 		var accentColor = Application.getApp().getProperty("AccentColor");
+		var hourSize = 7;//Application.getApp().getProperty("hourSize");
+		var minuteSize = 8;//Application.getApp().getProperty("minuteSize");
 
         // Update the view     
         View.findDrawableById("minuteLabel").setColor(accentColor);
+        View.findDrawableById("minuteLabel").setFont(minuteSize);
+        View.findDrawableById("minuteLabel").setLocation(105, (minuteSize == 8)? 20 : 30);
         View.findDrawableById("minuteLabel").setText(clockTime.min.format("%02d"));
         
         
 		View.findDrawableById("hourLabel").setColor(foreGroundColor);
+		View.findDrawableById("hourLabel").setFont(hourSize);
+		View.findDrawableById("hourLabel").setLocation(95, (hourSize == 8)? 20 : 30);
 		View.findDrawableById("hourLabel").setText(clockTime.hour.format("%02d"));
 		
 		View.findDrawableById("dateLabel").setColor(foreGroundColor);
@@ -76,7 +82,7 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
     }
-    
+  
     function getHeartrateText(){
    	
 		var currentHeartrate= Activity.getActivityInfo().currentHeartRate;

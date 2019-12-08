@@ -1,6 +1,14 @@
 <strings>
 
     <string id="AppName">WatchfaceOne</string>
+    
+    <string id="hourSizeTitle">Hours size</string>
+	<string id="minuteSizeTitle">Minutes size</string>
+	
+	<string id="fontLarge">Large</string>
+	<string id="fontMedium">Medium</string>
+	<string id="fontSmall">Small</string>
+
 
     <string id="BackgroundColorTitle">Background Color</string>
     <string id="ForegroundColorTitle">Foreground Color</string>
