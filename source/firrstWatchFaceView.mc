@@ -91,7 +91,7 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 		}
 		
 		currentHeartrate = ActivityMonitor.getHeartRateHistory(1, true).next();
-		if(currentHeartrate){
+		if(currentHeartrate.heartRate != ActivityMonitor.INVALID_HR_SAMPLE){
 			return currentHeartrate.heartRate.toString();
 		}
 		return "--";

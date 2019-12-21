@@ -1,17 +1,20 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="dateLabel" x="110" y="160" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
+    <label id="dateLabel" x="115" y="118" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
-    <label id="stepcountLabel" x="157" y ="160" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
-    <label id="batteryLabel" x="162" y ="143" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_DK_GRAY" />
-    <label id="hrLabel" x="182" y ="126" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
-    <label id="notificationLabel" x="186" y ="109" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
+    <label id="stepcountLabel" x="125" y ="8" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
+   	<bitmap id="stepsIcon" x="130" y="10" filename="images/steps.png"/>
+   
+    <label id="batteryLabel" x="115" y ="138" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_GRAY" />
 
     <label id="hourLabel" x="90" y="20" font="Graphics.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
 	<label id="minuteLabel" x="95" y="20" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
 	
-	<bitmap id="stepsIcon" x="160" y="163" filename="images/steps.png"/>
-	<bitmap id="heartrateIcon" x="187" y="130" filename="images/heart.png"/>
-	<bitmap id="notificationIcon" x="192" y="113" filename="images/message.png"/>
+	
+	<label id="hrLabel" x="65" y ="162" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" />
+	<bitmap id="heartrateIcon" x="48" y="165" filename="images/heart.png"/>
+
+    <label id="notificationLabel" x="149" y ="162" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
+	<bitmap id="notificationIcon" x="153" y="165" filename="images/message.png"/>
 
 </layout>
