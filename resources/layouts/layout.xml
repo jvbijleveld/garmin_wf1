@@ -1,11 +1,11 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="dateLabel" x="115" y="118" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="dateLabel" x="112" y="118" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
     <label id="stepcountLabel" x="125" y ="8" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
-   	<bitmap id="stepsIcon" x="130" y="10" filename="images/steps.png"/>
+   	<bitmap id="stepsIcon" x="128" y="10" filename="images/steps.png"/>
    
-    <label id="batteryLabel" x="115" y ="138" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_GRAY" />
+    <label id="batteryLabel" x="112" y ="138" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_GRAY" />
 
     <label id="hourLabel" x="90" y="20" font="Graphics.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
 	<label id="minuteLabel" x="95" y="20" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />

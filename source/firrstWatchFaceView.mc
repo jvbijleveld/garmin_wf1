@@ -57,14 +57,12 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 		View.findDrawableById("hrLabel").setText(getHeartrateText());
 		
         View.findDrawableById("stepcountLabel").setColor(countersColor);
-        View.findDrawableById("stepcountLabel").setText(getStepCountText());
-        
+                
         View.findDrawableById("notificationLabel").setColor(countersColor);
         View.findDrawableById("notificationLabel").setText(getNotificationText());
         
         View.findDrawableById("batteryLabel").setColor(countersColor);
-        View.findDrawableById("batteryLabel").setText(System.getSystemStats().battery.toNumber().toString() + "%");
-        
+                
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -77,10 +75,16 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
+    	View.findDrawableById("batteryLabel").setText(getBatteryText());
+    	View.findDrawableById("stepcountLabel").setText(getStepCountText());
+    	View.findDrawableById("stepsIcon").setLocation(128,10);
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
+    	View.findDrawableById("batteryLabel").setText("");
+    	View.findDrawableById("stepcountLabel").setText("");
+    	View.findDrawableById("stepsIcon").setLocation(0,0);
     }
   
     function getHeartrateText(){
@@ -117,6 +121,6 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     }   
     
     function getBatteryText(){
-    	//System.getDeviceState().battery.toString();
+    	return System.getSystemStats().battery.toNumber().toString() + "%";
 	}
 }
