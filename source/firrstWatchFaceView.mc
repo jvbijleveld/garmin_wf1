@@ -10,7 +10,7 @@ using Toybox.ActivityMonitor as am;
 
 class firrstWatchFaceView extends WatchUi.WatchFace {
 
-	var isSleep = false;
+	var nofUpdates = 0;
 
     function initialize() {
         WatchFace.initialize();
@@ -52,22 +52,22 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 		View.findDrawableById("hourLabel").setText(clockTime.hour.format("%02d"));
 		
 		View.findDrawableById("secondsLabel").setColor(foreGroundColor);
-		
-		if(!isSleep){
-			View.findDrawableById("secondsLabel").setText(clockTime.sec.format("%02d"));
-	    	View.findDrawableById("batteryLabel").setText(getBatteryText());
-    		View.findDrawableById("stepcountLabel").setText(getStepCountText());
-    		View.findDrawableById("stepsIcon").setLocation(128,10);
-		}else{
-			View.findDrawableById("secondsLabel").setText("");
-			View.findDrawableById("batteryLabel").setText("");
-    		View.findDrawableById("stepcountLabel").setText("");
-    		View.findDrawableById("stepsIcon").setLocation(0,0);
-		}
+		View.findDrawableById("batteryLabel").setColor(countersColor);
 		
 		View.findDrawableById("dateLabel").setColor(foreGroundColor);
         View.findDrawableById("dateLabel").setText(dateString);
         
+        if(nofUpdates < 10){
+			View.findDrawableById("batteryLabel").setText(getBatteryText());
+    		View.findDrawableById("stepcountLabel").setText(getStepCountText());
+    		View.findDrawableById("stepsIcon").setLocation(128,10);
+    		View.findDrawableById("secondsLabel").setText(clockTime.sec.format("%02d"));
+		}else{
+			View.findDrawableById("batteryLabel").setText("");
+    		View.findDrawableById("stepcountLabel").setText("");
+    		View.findDrawableById("secondsLabel").setText("");
+	    	View.findDrawableById("stepsIcon").setLocation(0,0);
+		}
 		
 		View.findDrawableById("hrLabel").setColor(countersColor);
 		View.findDrawableById("hrLabel").setText(getHeartrateText());
@@ -77,8 +77,8 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
         View.findDrawableById("notificationLabel").setColor(countersColor);
         View.findDrawableById("notificationLabel").setText(getNotificationText());
         
-        View.findDrawableById("batteryLabel").setColor(countersColor);
-                
+        //update the updates counter
+        nofUpdates++;
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -91,12 +91,12 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
-    	isSleep = false;
+	    //reset the updates counter
+	    nofUpdates = 0;
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
-    	isSleep = true;
     }
   
     function getHeartrateText(){
