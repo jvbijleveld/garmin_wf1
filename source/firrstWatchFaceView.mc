@@ -10,6 +10,8 @@ using Toybox.ActivityMonitor as am;
 
 class firrstWatchFaceView extends WatchUi.WatchFace {
 
+	var isSleep = false;
+
     function initialize() {
         WatchFace.initialize();
     }
@@ -49,6 +51,20 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 		View.findDrawableById("hourLabel").setLocation(95, (hourSize == 8)? 20 : 30);
 		View.findDrawableById("hourLabel").setText(clockTime.hour.format("%02d"));
 		
+		View.findDrawableById("secondsLabel").setColor(foreGroundColor);
+		
+		if(!isSleep){
+			View.findDrawableById("secondsLabel").setText(clockTime.sec.format("%02d"));
+	    	View.findDrawableById("batteryLabel").setText(getBatteryText());
+    		View.findDrawableById("stepcountLabel").setText(getStepCountText());
+    		View.findDrawableById("stepsIcon").setLocation(128,10);
+		}else{
+			View.findDrawableById("secondsLabel").setText("");
+			View.findDrawableById("batteryLabel").setText("");
+    		View.findDrawableById("stepcountLabel").setText("");
+    		View.findDrawableById("stepsIcon").setLocation(0,0);
+		}
+		
 		View.findDrawableById("dateLabel").setColor(foreGroundColor);
         View.findDrawableById("dateLabel").setText(dateString);
         
@@ -75,16 +91,12 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
-    	View.findDrawableById("batteryLabel").setText(getBatteryText());
-    	View.findDrawableById("stepcountLabel").setText(getStepCountText());
-    	View.findDrawableById("stepsIcon").setLocation(128,10);
+    	isSleep = false;
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
-    	View.findDrawableById("batteryLabel").setText("");
-    	View.findDrawableById("stepcountLabel").setText("");
-    	View.findDrawableById("stepsIcon").setLocation(0,0);
+    	isSleep = true;
     }
   
     function getHeartrateText(){
