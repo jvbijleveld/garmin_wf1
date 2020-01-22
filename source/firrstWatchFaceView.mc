@@ -92,7 +92,9 @@ class firrstWatchFaceView extends WatchUi.WatchFace {
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
 	    //reset the updates counter
-	    nofUpdates = 0;
+	    if(nofUpdates >= 10){
+	    	nofUpdates = 0;
+	    }
     }
 
     // Terminate any active timers and prepare for slow updates.
